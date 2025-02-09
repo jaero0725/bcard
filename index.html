@@ -56,6 +56,10 @@
 
     <!-- JavaScript 파일 -->
     <script src="main.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="service-intro">
@@ -81,31 +85,59 @@
     </div>
 
     <div class="business-card">
-        <div class="profile-section">
-            <img src="profile.jpg" alt="프로필 사진" class="profile-image">
-            <h1>홍길동</h1>
-            <p class="title">직책 | 회사명</p>
+        <div class="card-header">
+            <div class="company-logo">
+                <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google 로고">
+            </div>
+            <div class="profile-info">
+                <span class="department">Engineering Department</span>
+                <h1>최재호</h1>
+                <p class="title">Senior Software Engineer</p>
+                <p class="company">Google Korea</p>
+            </div>
         </div>
+
+        <div class="card-divider"></div>
 
         <div class="contact-section">
             <div class="contact-item">
                 <i class="fas fa-envelope"></i>
-                <a href="mailto:email@example.com">email@example.com</a>
+                <div class="contact-text">
+                    <label>Email</label>
+                    <a href="mailto:zeroco@google.com">zeroco@google.com</a>
+                </div>
             </div>
             <div class="contact-item">
-                <i class="fas fa-phone"></i>
-                <a href="tel:+821012345678">010-1234-5678</a>
+                <i class="fas fa-phone-alt"></i>
+                <div class="contact-text">
+                    <label>Phone</label>
+                    <a href="tel:+821012345678">+82 10 9233 4574</a>
+                </div>
             </div>
             <div class="contact-item">
                 <i class="fas fa-map-marker-alt"></i>
-                <p>서울특별시 강남구</p>
+                <div class="contact-text">
+                    <label>Address</label>
+                    <p>Google Korea, 강남파이낸스센터, 서울</p>
+                </div>
             </div>
         </div>
 
-        <div class="social-links">
-            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
-            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
-            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+        <div class="card-footer">
+            <div class="social-links">
+                <a href="#" class="social-link" title="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#" class="social-link" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="social-link" title="Medium">
+                    <i class="fab fa-medium-m"></i>
+                </a>
+            </div>
+            <div class="qr-code">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://zeorco-bcard.netlify.app/" alt="QR 코드">
+            </div>
         </div>
     </div>
 </body>
