@@ -2,143 +2,100 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- SEO -->
-    <meta name="naver-site-verification" content="3b81834582157b7eafb087a31cff70085673805d" />
-    
-    <!-- Page Title -->
-    <title>디지털 명함 | zeroco</title>
-
-    <!-- Meta Description: 페이지의 핵심 내용을 요약 (150-160자 권장) -->
-    <meta name="description" content="제로코의 디지털 명함입니다. 프로필, 연락처 및 소셜 미디어 정보를 확인하실 수 있습니다.">
-
-    <!-- Canonical URL: 중복 페이지가 있을 때 기본적으로 사용할 URL -->
-    <link rel="canonical" href="https://zeorco-bcard.netlify.app/">
-
-    <!-- Open Graph (Facebook, LinkedIn 등에서 공유할 때) -->
-    <meta property="og:title" content="zeroco bcard">
-    <meta property="og:description" content="A short description of your page optimized for SEO and social sharing.">
-    <meta property="og:image" content="https://www.yourwebsite.com/image.jpg">
-    <meta property="og:url" content="https://www.yourwebsite.com/optimized-page">
-    <meta property="og:type" content="website">
-
-    <!-- Twitter Card (Twitter에서 공유할 때) -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Your Optimized Page Title">
-    <meta name="twitter:description" content="A short description of your page optimized for SEO and social sharing.">
-    <meta name="twitter:image" content="https://www.yourwebsite.com/image.jpg">
-
-    <!-- Robots: 페이지 인덱싱 여부 설정 -->
-    <meta name="robots" content="index, follow">
-
-    <!-- Keywords: SEO 키워드 (현대 SEO에서는 영향이 크지 않음) -->
-    <meta name="keywords" content="SEO, optimization, web development, keyword">
-
-    <!-- Author: 페이지 작성자 -->
-    <meta name="author" content="zeroco">
-
-    <!-- CSS 파일 -->
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-
-    <!-- Structured Data (JSON-LD 포맷) -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://zeorco-bcard.netlify.app/",
-      "@type": "WebPage",
-      "name": "zeroco bcard",
-      "description": "This is an optimized page for SEO using structured data and best practices.",
-      "url": "https://zeorco-bcard.netlify.app/",
-      "image": "https://zeorco-bcard.netlify.app/image.jpg"
-    }
-    </script>
-
-    <!-- JavaScript 파일 -->
-    <script src="main.js"></script>
-
+    <title>인플러스</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="service-intro">
-        <h2>디지털 명함 서비스</h2>
-        <div class="service-features">
-            <div class="feature-item">
-                <i class="fas fa-id-card"></i>
-                <h3>간편한 디지털 명함</h3>
-                <p>언제 어디서나 접근 가능한 온라인 명함을 제작해드립니다.</p>
+    <div class="container">
+        <div class="main-content">
+            <div class="left-section">
+                <div class="hero-text">
+                    <h1>디지털 시대의<br>새로운 명함</h1>
+                    <p>AI가 만드는 특별한 디지털 명함으로<br>당신의 브랜드를 표현하세요</p>
+                    <div class="cta-buttons">
+                        <a href="./intro.html" class="btn-primary">무료로 시작하기</a>
+                        <button class="btn-secondary">데모 보기</button>
+                    </div>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-wand-magic-sparkles"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>AI 디자인</h3>
+                            <p>AI가 당신의 스타일에 맞는 최적의 디자인을 제안합니다</p>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-share-nodes"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>스마트 공유</h3>
+                            <p>NFC, QR코드로 간편하게 공유하세요</p>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>분석 기능</h3>
+                            <p>프로필 조회수와 연락처 저장 현황을 한눈에</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="feature-item">
-                <i class="fas fa-share-alt"></i>
-                <h3>쉬운 공유</h3>
-                <p>URL 하나로 모든 연락처 정보를 손쉽게 공유하세요.</p>
-            </div>
-            <div class="feature-item">
-                <i class="fas fa-mobile-alt"></i>
-                <h3>반응형 디자인</h3>
-                <p>모든 기기에서 완벽하게 표시되는 반응형 디자인을 제공합니다.</p>
+
+            <div class="right-section">
+                <div class="cards-container">
+                    <div class="ai-business-card">
+                        <div class="card-background">
+                            <div class="gradient-overlay"></div>
+                            <div class="pattern-grid"></div>
+                        </div>
+                        <div class="card-content">
+                            <div class="company-logo">
+                                <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_light_color_92x30dp.png" alt="Google Logo">
+                            </div>
+                            <div class="profile-info">
+                                <div class="name-title">
+                                    <h1>김서준</h1>
+                                    <span class="ai-badge">AI Generated</span>
+                                </div>
+                                <p class="title">AI Solutions Architect</p>
+                                <p class="company">Google Cloud AI</p>
+                            </div>
+                            <div class="contact-section">
+                                <div class="contact-item">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>seojun.kim@google.com</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-phone"></i>
+                                    <span>+82 10 1234 5678</span>
+                                </div>
+                            </div>
+                            <div class="qr-section">
+                                <div id="qrCode1" class="qr-code"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <a href="#create-card" class="cta-button">명함 만들기</a>
     </div>
 
-    <div class="business-card">
-        <div class="card-header">
-            <div class="company-logo">
-                <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google 로고">
-            </div>
-            <div class="profile-info">
-                <span class="department">Engineering Department</span>
-                <h1>최재호</h1>
-                <p class="title">Senior Software Engineer</p>
-                <p class="company">Google Korea</p>
-            </div>
-        </div>
-
-        <div class="card-divider"></div>
-
-        <div class="contact-section">
-            <div class="contact-item">
-                <i class="fas fa-envelope"></i>
-                <div class="contact-text">
-                    <label>Email</label>
-                    <a href="mailto:zeroco@google.com">zeroco@google.com</a>
-                </div>
-            </div>
-            <div class="contact-item">
-                <i class="fas fa-phone-alt"></i>
-                <div class="contact-text">
-                    <label>Phone</label>
-                    <a href="tel:+821012345678">+82 10 9233 4574</a>
-                </div>
-            </div>
-            <div class="contact-item">
-                <i class="fas fa-map-marker-alt"></i>
-                <div class="contact-text">
-                    <label>Address</label>
-                    <p>Google Korea, 강남파이낸스센터, 서울</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="card-footer">
-            <div class="social-links">
-                <a href="#" class="social-link" title="LinkedIn">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <a href="#" class="social-link" title="GitHub">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="#" class="social-link" title="Medium">
-                    <i class="fab fa-medium-m"></i>
-                </a>
-            </div>
-            <div class="qr-code">
-                <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://zeorco-bcard.netlify.app/" alt="QR 코드">
-            </div>
-        </div>
-    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 </body>
 </html>
